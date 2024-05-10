@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f;
+    font-family: arial;
+}
+.container {
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+header div {
+    padding-right: 10px;
+    align-items: center;
+    font-size: 15px;
+}
+header div a {
+    text-decoration: none;
+    color: white;
+}
+header div a img {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+.diminuir {
+    height: 25px;
+    width: 25px;
+}
+.botao {
+    background-color: #31b0ef;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.botao:hover {
+    background-color: #4263ae;
+}
+h1 {
+    color: white;
+    font-size: 85px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.pesquisaformulário {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+form div input {
+    height: 45px;
+    width: 600px;
+    padding: 0px;
+    font-size: 16px;
+    border: 1px gray solid;
+    border-radius: 50px;
+    background-color: #2c2c2c;
+    padding-left: 35px;
+    color:#fff;
+}
+form div input:hover {
+    background-color: #464646;
+    box-shadow: #1A1A1D 0px 0px 5px;
+}
+.separador {
+    display: flex;
+    justify-content: center;
+}
+.but {
+    padding: 12px;
+    font-size: 14px;
+    background-color: #3d3d3d;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+    margin-top: 20px; 
+    text-decoration: none; 
+}
+.but:hover {
+    background-color: #5d5c5c; 
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.US {
+    color:#31b0ef;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container2 p {
+    color: white;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+footer .container3, footer .container4 {
+    display: flex;
+}
+footer  {
+    display: flex;
+    flex-direction: column; /* Para alinhar as divs no início e no final do footer */
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #141414; /* Adicionado apenas para melhorar a visibilidade do footer */
+}
+footer .container5 {
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+} 
+.container3,
+.container4 {
+    display: flex; /* Mantém o conteúdo alinhado horizontalmente */
+    align-items: center; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+} 
+footer div {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+footer div a {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+form div.input-container {
+    position: relative;
+}
+form div.input-container img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    height: 25px;
+    width: 20px; 
+}
+form div.input-container .img2 {
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    left: 10px;
+    height: 20px;
+    width: 20px;
+}
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    .container {
+        justify-content: flex-end; /* Centralizar itens */
+    }
+    header div a img {
+        height: 20px;
+        width: 20px;
+        margin-left: 5px;
+    }
+    header div {
+        padding-right: 5px
+    }
+    header div a {
+        font-size: 11px; /* Reduzir o tamanho da fonte */
+    }
+    h1 {
+        font-size: 50px; /* Reduzir o tamanho da fonte */
+        margin-top: 10px;
+    }
+    form div input {
+        width: 90%; /* Largura do input ajustável */
+        max-width: 400px; /* Largura máxima */
+    }
+    .but {
+        margin-top: 10px; /* Espaçamento superior reduzido */
+        font-size: 10px;
+        padding: 8px;
+    }
+    .brazil p{
+        font-size: 8px;
+        text-align: center;   
+    }
+    footer div {
+        margin-right: 8px;
+    }
+    footer {
+        padding: 5px; /* Padding reduzido */
+        font-size: 8px;
+        justify-content: center;
+    }
+    footer .container5 {
+        display: flex;
+        justify-content: center;
+    }
+    .container2 form p {
+        font-size: 8px;
+    }
+    form div.input-container img {
+        height: 17px;
+        width: 13px; 
+    }
+    form div.input-container .img2 {
+        height: 15px;
+        width: 15px; 
+    }
+}
+
+    

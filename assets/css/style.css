@@ -1,0 +1,557 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e23;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+header {
+    background-color: #1e1e23;
+    margin-top: 30px;;
+    border-bottom: #888888 1px solid;
+}
+section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+header div {
+    align-items: center; 
+}
+header .titulo {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+}
+a  {
+    text-decoration: none;
+    color: #888888;
+    margin: 0px 10px 0px 0px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin-left: 200px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color:#abaaaa;
+}
+form div input {
+    height: 45px;
+    width: 640px;
+    padding: 0px;
+    font-size: 16px;
+    border: 1px gray solid;
+    border-radius: 50px;
+    background-color: #2c2c2c;
+    padding-left: 40px;
+    color:#fff;
+  }
+form div input:hover {
+    background-color: #3e3e3e;
+    box-shadow: #1A1A1D 0px 0px 5px;
+}
+form div.input-container .excluir {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 24%;
+    height: 18px;
+    width: 18px;
+}
+form div:hover .excluir {
+    display: block;
+}
+form {
+    position: relative;
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+form div {
+    position: relative;
+}
+
+form img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+form div.input-container img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 50%;
+}
+form div.input-container .primeirapesquisa {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 95%;
+    height: 20px;
+    width: 20px;
+}
+
+form div.input-container .pipe {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 22%;
+    height: 28px;
+    width: 3px;
+}
+form div.input-container .voz {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 18%;
+    height: 20px;
+    width: 16px;
+} 
+form div.input-container .camera {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 13%;
+    height: 20px;
+    width: 20px;
+} 
+form div.input-container .segundapesquisa {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 7%;
+    height: 29px;
+    width: 29px;
+}    
+.primeiraparte {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.juntoprimeiraparte {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.segundaparte {
+    display: flex;
+    justify-content:space-between ;
+    margin: 20px 20px 0px 200px;
+}
+.juntosegundaparte a {
+    margin-right: 20px;
+    padding: 10px;
+}
+.juntosegundaparte {
+    display: flex;
+}
+
+#link a:hover  {
+    text-decoration: underline;
+}
+.sem {
+    color: #86abff ;
+}
+span {
+    color: #f4f4f4;
+    font-size: 16px;
+}
+h1 {
+    color: #fff;
+    font-size: 25px;
+}
+.azul {
+    color: #86abff;
+    border-bottom: #86abff 3px solid;
+}
+.grande {
+    font-size: 25px;
+}
+.botao {
+    background-color: #31b0ef;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.botao:hover {
+    background-color: #4263ae;
+}
+.center {
+    display: flex;
+}
+.clicando {
+    background-color: #282828;
+    border-radius: 15px;
+    padding: 5px;
+}
+.clicando:hover {
+    background-color: #494848;
+    color: #ffffff;
+}
+.clicando2:hover {
+    background-color: #494848;
+    border-radius: 50px;
+}
+header a img {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+section img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+.primeira {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;   
+}
+section div .primeirasegunda p {
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+section div .segunda a {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+section div .segunda p {
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+section div .terceira  {
+    margin-top: 5px;
+}
+section .final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pesquisa form div input {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 8px; 
+    cursor: pointer;
+}
+.pesquisa form div input::placeholder {
+    color: #ffffff;
+}
+.pesquisa form div.input-container .primeirapesquisa {
+    position: absolute;
+    top: 42%;
+    transform: translateY(-50%);
+    right: 85%;
+    height: 20px;
+    width: 20px;
+}
+.pesquisa {
+    display: flex;
+    flex-direction: column;
+}
+.final {
+    display: flex;
+    flex-direction: row;
+}
+.cima {
+    font-size: 12px;
+}
+.meio {
+    margin-bottom: 0px;
+}
+.meu-botao {
+    position: relative; /* Adicionando position relative */
+    width: 200px; 
+    height: 50px; 
+    background-color: #4d4e4d;
+    border: none;
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    font-size: 18px; 
+    margin: 4px 2px; 
+    cursor: pointer;
+    border-radius: 50px;
+}
+.meu-botao:hover {
+    background-color: #5f5f5f;
+    border: #fff 1px solid;
+}
+.vermais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meu-botao::before,
+.meu-botao::after {
+    content: '';
+    position: absolute; /* Posicionamento absoluto */
+    width: calc(65% + 20px); /* Largura total mais 20px para cobrir fora do botão */
+    height: 1px; /* Altura da linha */
+    background-color: #8a8a8a; /* Cor da linha */
+}
+.meu-botao::before {
+    top: calc(50% - 1px); /* Posicionamento no meio vertical - metade da altura da linha */
+    left: -150px; /* Posicionamento à esquerda, um pouco fora do botão */
+}
+.meu-botao::after {
+    top: calc(50% - 1px); /* Posicionamento no meio vertical - metade da altura da linha */
+    right: -150px; /* Posicionamento à direita, um pouco fora do botão */
+}
+footer {
+    margin: 0px;
+}
+footer a {
+    color: #888888;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+.footerabaixo1 {
+    display: flex;
+    margin-top: 10px;
+}
+.footerabaixo2 {
+    display: flex;
+    margin-top: 10px;
+}
+.footerbra {
+    margin-bottom: 10px;
+}
+.footerjunto {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    border-top: #606060 1px solid;   
+}
+@media only screen and (max-width: 1100px) {
+    form div.input-container .excluir {
+        display: none;
+        position: absolute;
+        top: 38%;
+        transform: translateY(-50%);
+        right: 19%;
+        height: 18px;
+        width: 18px;
+    }
+    form div:hover .excluir {
+        display: block;
+    }
+
+    form div.input-container .primeirapesquisa {
+        position: absolute;
+        top: 38%;
+        transform: translateY(-50%);
+        right: 96%;
+        height: 20px;
+        width: 20px;
+    }
+
+    form div.input-container .pipe {
+        position: absolute;
+        top: 36%;
+        transform: translateY(-50%);
+        right: 17%;
+        height: 28px;
+        width: 3px;
+    }
+    form div.input-container .voz {
+        position: absolute;
+        top: 38%;
+        transform: translateY(-50%);
+        right: 12%;
+        height: 20px;
+        width: 16px;
+    } 
+    form div.input-container .camera {
+        position: absolute;
+        top: 38%;
+        transform: translateY(-50%);
+        right: 8%;
+        height: 20px;
+        width: 20px;
+    } 
+    form div.input-container .segundapesquisa {
+        position: absolute;
+        top: 38%;
+        transform: translateY(-50%);
+        right: 3%;
+        height: 29px;
+        width: 29px;
+    }      
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 400px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    header {
+        width: 320px;
+        border: none;
+        color: #fff;
+    }
+    header a {
+        color: #fff;
+    }
+    header .titulo {
+        font-size: 20px;
+        font-weight: 300px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .espaco {
+        margin-left: 10px;
+    }
+    form {
+        position: relative;
+        margin-left: 20px;
+        font-size: 16px;
+        margin-top: 15px;
+        margin-bottom: 0px;  
+    }
+    form div input {
+        height: 20px;
+        width: 218px;
+        padding-left: 0px;
+        margin-left: 0px;
+      }
+      .primeiraparte {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .center {
+        display: flex;
+        flex-direction: column;
+    }
+    .juntoprimeiraparte {
+        margin-top: 30px;
+    }
+    .segundaparte {
+        display: flex;
+        font-size: 10px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .juntosegundaparte a {
+        margin: 0px;
+        padding: 10px;
+    }
+    header a img {
+        width: 10px;
+        height: 10px;
+        padding: 3px;
+    }
+    .botao {
+        font-size: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        margin-bottom: 3px;
+    }
+    h1 {
+        color: #fff;
+        font-size: 15px;
+    }
+    .grande {
+        font-size: 20px;
+    }
+    form div input {
+        padding-left: 20px;
+    }
+    form div.input-container .excluir {
+        display: none;
+        position: absolute;
+        top: 28%;
+        transform: translateY(-50%);
+        right: 32%;
+        height: 10px;
+        width: 10px;
+    }
+    form div:hover .excluir {
+        display: block;
+    }
+    form div.input-container img {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 50%;
+    }
+    form div.input-container .primeirapesquisa {
+        position: absolute;
+        top: 28%;
+        transform: translateY(-50%);
+        right: 92%;
+        height: 10px;
+        width: 10px;
+    }
+    .final form div.input-container .primeirapesquisa {
+        position: absolute;
+        top: 45%;
+        transform: translateY(-50%);
+        right: 86%;
+        height: 20px;
+        width: 20px;
+    }
+    form div.input-container .pipe {
+        position: absolute;
+        top: 28%;
+        transform: translateY(-50%);
+        right: 29%;
+        height: 15px;
+        width: 3px;
+    }
+    form div.input-container .voz {
+        position: absolute;
+        top: 28%;
+        transform: translateY(-50%);
+        right: 22%;
+        height: 10px;
+        width: 8px;
+    } 
+    form div.input-container .camera {
+        position: absolute;
+        top: 28%;
+        transform: translateY(-50%);
+        right: 15%;
+        height: 10px;
+        width: 10px;
+    } 
+    form div.input-container .segundapesquisa {
+        position: absolute;
+        top: 28%;
+        transform: translateY(-50%);
+        right: 7%;
+        height: 15px;
+        width: 15px;
+    }
+    .cima {
+        font-size: 8px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    
+    footer a {
+        color: #fff;
+    }
+    .footerjunto {
+        border: none;
+    }
+    .esconde {
+        display: none;
+    }
+    .meu-botao::before,
+    .meu-botao::after {
+        display: none; /* Oculta as pseudo-classes */
+    }
+
+}
